@@ -10,7 +10,7 @@
    body{
      max-width: 480px;
      width: 100%;
-     background-size: cover;
+     background-size:100% ;
    }
    header{
      width: 100%;
