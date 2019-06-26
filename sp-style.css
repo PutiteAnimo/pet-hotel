@@ -1,10 +1,8 @@
 @media screen and (max-width: 480px) {
-
-/*-----------▽全体▽---------------*/
+/*全体*/
    .wrapper{
      width: 100%;
      padding:0;
-
    }
 
    body{
@@ -21,13 +19,29 @@
    .header-menu-wrapper{
      display: none;
    }
+   #jump5,#jump8,#jump6,#jump7,#jump2,#jump4,#jump9{
+     margin-top: -230px;
+     padding-top: 230px;
+   }
+   #jump3{
+     margin-top: -150px;
+     padding-top: 150px;
+   }
+   .sonota{padding-bottom:0px;margin-bottom: 0px;}
+   .koncept{padding-bottom:0px;margin-bottom: 50px;}
+   .ryou-kin-ip5{padding-top:0px;margin-top: -40px;}
+   .ryou-kin{padding-bottom:0px;margin-bottom: -270px;}
+   .hitu-you-na-mono,.ei-gyou-ji-kan,.kai-sya-gai-you,.access,.contact{padding-bottom:0px;margin-bottom: 80px;}
+
+
+   .oheya,.goyoyaku,.oazukari {padding-bottom:0px;margin-bottom: 0px;}
 /*---------▽ハンバーガーメニュー▽-----------------*/
       .Hamburger{
         display: block;
       }
       nav.navigation-sp {
           position: absolute;
-          z-index: 2;
+        z-index: 11;
           top:0;
           left:0;
           background: #ffeaea;
@@ -37,6 +51,7 @@
           transition: all 0.6s;
           width: 80%;
           position: fixed;
+          opacity: 0.9;
       }
       nav.navigation-sp ul {
           background: #ffeaea;
@@ -74,8 +89,9 @@
           width: 50px;
           height: 34px;
           cursor: pointer;
-          z-index: 3;
+          z-index: 12;
           text-align: center;
+          opacity: 0.7;
       }
       .nav-toggle span {
           display: block;
@@ -118,15 +134,30 @@
    footer li{
      margin-right: 1px;
    }
-/*-----------▽トップ画像▽---------------*/
+   /*link*/
+   .link-link span:before{
+    position: absolute;top: 0px;left: 0px;
+   }
+   .link-link span:after{
+  position: absolute;bottom: 0px;left: 2px;width: 110%;
+   }
+/*トップ画像*/
 .top-gazou2{
   display: block;
- width:100%;
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+  width:55%;height:auto;
+  margin: 0 auto;
+  opacity: 0.8;
 }
-.top-gazou{
+.spgawp{
+  display: block;
+  position: sticky;top:0;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.top-gazou-wrapper{
   display: none;
 }
 
@@ -369,6 +400,70 @@ margin: 0 auto;
   margin-top: 7px;
 }
 /*--------------------------*/
+.momo3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 120%;
+}
+.momo4{
+  margin-top: -50px;
+  margin-bottom: 20px;
+  margin-left:-90px;
+  width: 180%;
+}
+.momo5{
+  margin-top: 40px;
+  margin-bottom: -60px;
+  margin-left:-50px;
+  width: 150%;
+}
+.momo6{
+  margin-top: 0px;
+  margin-bottom: -0px;
+  margin-left:-35px;
+  width: 140%;
+}
+
+.ham1{
+  width: 100%;
+}
+.momo7{
+  margin-top: -250px;
+  margin-bottom: -190px;
+  margin-left:-175px;
+  width: 180%;
+}
+.usa2{
+  margin-bottom: -40px;
+}
+.momo8{
+  margin-top: -0px;
+  margin-bottom: -0px;
+  margin-left:-60px;
+  width: 150%;
+}
+.momo9{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left:-40px;
+  width: 130%;
+}
+.momo10{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left:-40px;
+  width: 120%;
+}
+.momo11{
+  margin-top: 0px;
+  margin-bottom: -200px;
+  margin-left:0px;
+  width: 175%;
+}
+.momon{
+  margin-left: 17px;
+  margin-top: 13px;
+}
 /*-----------支払方法------------*/
 
 
@@ -381,10 +476,9 @@ margin: 0 auto;
   height: auto;
 }
 img{
-  width: 90%;
-  height: auto;
+  width: 100%;height: auto;
 }
-    /*----------------★必要なもの★----------------------*/
+    /*必要なもの*/
     .hitu-you-na-mono{
         width: 85%;
     }
@@ -434,7 +528,6 @@ img{
 @media screen and (max-width: 1688px) {
 
   .top-gazou-wrapper{
-
     position:sticky;
     left:0;
     top:97px;
@@ -451,7 +544,6 @@ img{
 @media screen and (max-width: 1342px) {
 
   .top-gazou-wrapper{
-
     position:sticky;
     left:0;
     top:130px;
@@ -527,7 +619,6 @@ img{
 @media screen and (max-width: 893px) {
 
   .top-gazou-wrapper{
-
     position:sticky;
     left:0;
     top:130px;
@@ -544,7 +635,6 @@ img{
 @media screen and (max-width: 748px) {
 
   .top-gazou-wrapper{
-
     position:sticky;
     left:0;
     top:168px;
@@ -562,7 +652,6 @@ img{
 @media screen and (max-width: 645px) {
 
   .top-gazou-wrapper{
-
     position:sticky;
     left:0;
     top:168px;
@@ -611,4 +700,44 @@ img{
   .acces-span span{
     font-size:28px;
   }
+}
+
+
+
+
+@media screen and (max-width: 1599px) {
+
+  .felet1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: -200px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1349px) {
+
+  .felet1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: -170px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1179px) {
+
+  .felet1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: -120px;
+  }
+
 }

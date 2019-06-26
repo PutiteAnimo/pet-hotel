@@ -82,7 +82,7 @@ h4{
   font-size:40px;
   background: linear-gradient(transparent 40%, #FF97C2 100%);
 }
-.top-gazou2{
+.spgawp{
   display:none;
 }
 .sp{
@@ -157,25 +157,14 @@ h4{
 
 
 
-/*‐‐‐‐‐‐‐‐‐‐top画像------------------*/
-.top-gazou{
 
-width:30%;
-
-}
-.top-gazou-wrapper{
+.top-gazou-wrapper{/*top画*/
   text-align:left;
   margin-bottom:50px;
-  height: auto;
   position:sticky;
   left:0;
   top:94px;
 }
-
-
-
-
-
 /*---------------★ご利用案内★-------------------*/
 .goriyou-annai{
   width: 90%;
@@ -223,6 +212,7 @@ width:30%;
     display: inline-block;
     text-align: center;
     padding-top: 10px;
+    height: auto;
 }
 .goyoyaku p {
     margin: 20px;
@@ -279,10 +269,6 @@ padding-top: 10px;
        margin-left: 26px;
          width: 95%;
 }
-#jump2{
-  margin-top: -130px;
-  padding-top: 130px;
-}
 
 
 
@@ -322,10 +308,7 @@ padding-top: 10px;
       border-radius: 8px;
     width: 83%;
 }
-#jump4{
-  margin-top: -130px;
-  padding-top: 130px;
-}
+
 .hitu-you-na-mono span{
     border-bottom: 1px solid #997474;
 }
@@ -417,6 +400,7 @@ line-height:auto;
         width: 80%;
         display: inline-block;
         text-align: center;
+        height: auto;
     }
     .ex p {
 
@@ -577,9 +561,7 @@ line-height:auto;
       text-align:center;
       margin-top: 30px;
     }
-    .siharai img{
-      width: 60%;
-    }
+
     .fa-paw{
         font-size:44px;
         margin-right: 12px;
@@ -593,15 +575,8 @@ line-height:auto;
 
 
 /*‐‐‐‐‐‐‐‐‐‐コンタクトフォーム------------------*/
-.oto-i-awa-se{
-text-align: right;
-width: 80%;
-}
-#jump8{
-  margin-top: -130px;
-  padding-top: 130px;
-}
-.contact-tel{
+
+.contact-tel,.link-wrapper{
   text-align: center;
 width: 80%;
   padding: 0.2em 0.5em;
@@ -619,44 +594,24 @@ width: 80%;
   padding-top:14px;
   line-height: 1.5;
 }
-.contact h3{
+.contact h3,.link-wrapper h3{
     margin-bottom: 30px;
 }
-.contact a{
+.contact a,.link-wrapper a{
   font-size: 30px;
-color:rgba(0,0,0,0.9); /* 文字色 */
+  color:#FF3366;
 text-decoration: none
 }
-.contact a:hover{
+.contact a:hover,.link-wrapper a:hover{
   font-size: 30px;
-color:rgba(0,0,0,0.4); /* 文字色 */
+color:rgba(0,0,0,0.4);
 text-decoration: none
 }
-.contact span{
+.contact span,.link-wrapper span{
   font-size: 19px;
   color:#FF4F50;
 }
-.contact-form{
-  max-width: 1920px;
-  width: 100%;
-  height: auto;
-     margin: 0 ;
-     padding: 0;
-  box-sizing: border-box;
-}
-.contact-form iframe{
-   width: 100%;
-   height: 1200px;
-   margin: 0;
-   padding: 0;
-display:inline-block;
-}
-
-
-
-
-
-/*----------------★経営理念ポリシー★----------------------*/
+/*経営理念ポリシー*/
 .koncept{
   box-sizing: border-box;
     padding: 0.2em 0.5em;
@@ -702,7 +657,7 @@ display:inline-block;
   width: 83%;
   margin-top: 50px;
 }
-#jump5{
+#jump5,#jump8,#jump6,#jump7,#jump2,#jump4,#jump9{
   margin-top: -130px;
   padding-top: 130px;
 }
@@ -738,10 +693,6 @@ display:inline-block;
 width: 83%;
 margin-top: 45px;
 }
-#jump6{
-  margin-top: -130px;
-  padding-top: 130px;
-}
 
 .kai-sya-gai-you table{
     margin: 20px auto;
@@ -772,10 +723,6 @@ margin-top: 45px;
   width: 83%;
   margin-top: 45px;
 }
-#jump7{
-  margin-top: -130px;
-  padding-top: 130px;
-}
 
 .access span{
   border-bottom: 1px solid #997474;
@@ -798,7 +745,65 @@ margin-top: 45px;
 
 }
 
+.momo1{
+}
+.momo4{
+}
+.momo4-1{
+  margin-bottom: 30px;
+}
+.momo4-2{
+  margin-bottom: -35px;
+}
+.komo{
+margin-bottom: 45px;
+}
+.komo4{
+margin-bottom: 8px;
+}
+.hamuuu{
+  margin-left: -60px;
+}
+.momog{
 
+}
+.goyoyaku{
+}
+.momolist li{
+  display: inline-block;
+}
+
+
+.stay-4 li{
+}
+.usa2{}
+
+  .usa4563{
+    margin-top:-160px;
+    margin-left: -200px;
+  }
+
+  .momo7{
+  }
+  .momo456{
+  }
+
+.ya{
+
+}
+
+  .momo8,.momo9{
+  }
+
+
+
+  .felet1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: -240px;
+  }
+  .option{
+  }
 /*‐‐‐‐‐‐‐‐‐‐フッター------------------*/
 footer ul{
   margin-top: 10px;

@@ -1,39 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--文字コードを指定-->
   <meta charset="utf-8">
-  <!--IE互換-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--タップコールで郵便番号とかを認識せず、電話番号のみを認識するためのヤツ-->
-  <meta name="format-detection" content="telephone=no">
-  <!--レスポンシブ -->
   <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <!--タイトル -->
   <title>Putite_Animo</title>
-  <!-- css読み込み-->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sp-style.css"><!--スマホ-->
-  <!-- fontawesomeファビコン読み込み-->
+  <link rel="stylesheet" href="sp-style.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!--jsライブラリ読み込み-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!--js（jQuery）ファイル読み込み-->
   <script src="jqy.js"></script>
 </head>
-
-
-
-
-
 <body>
-  <img src="img/hai-kei-480.jpg" class="top-gazou2" alt="top画像2"><!--sp用top画像-->
-
-
-
-
-
-    <div class="Hamburger"><!--sp用ハンバーガー-->
+  <div class="spgawp"><img src="img/hai-kei-480.png"class="top-gazou2"></div><!--sp用top画-->
+    <div class="Hamburger"><!--spバーガ-->
       <nav class="navigation-sp sp-block">
         <ul>
         <li><a href="">home</a></li>
@@ -44,8 +24,8 @@
         <li><a href="#jump6">会社概要</a></li>
         <li><a href="#jump7">access</a></li>
         <li><a href="#jump8">contact</a></li>
+        <li><a href="#jump9">link</a></li>
         <li><a href="https://ameblo.jp/putite-animo/">blog</a></li>
-        <li><a href="http://putite-animo.crayonsite.info/">link</a></li>
         <li><a href="https://mobile.twitter.com/Projectmomonga"><i class="fab fa-twitter-square fa-lg"></i></a></li>
         <li><a href="https://www.instagram.com/projectmomonga"><i class="fab fa-instagram fa-lg"></i></a></li>
         <li><a href="https://line.me/ti/p/8QPlYUjFk-"><i class="fab fa-line fa-lg"></i></a></li>
@@ -55,11 +35,6 @@
         <span></span><span></span><span></span>
       </div>
     </div>
-
-
-
-
-
 
   <div class="kotei-menu"><!--pc用、固定メニュー-->
         <div class="header-menu-wrapper">
@@ -72,26 +47,17 @@
             <li><a href="#jump6">会社概要</a></li>
             <li><a href="#jump7">access</a></li>
             <li><a href="#jump8">contact</a></li>
+            <li><a href="#jump9">link</a></li>
             <li><a href="https://ameblo.jp/putite-animo/">blog</a></li>
-            <li><a href="http://putite-animo.crayonsite.info/">link</a></li>
             <li><a href="https://mobile.twitter.com/Projectmomonga"><i class="fab fa-twitter-square fa-lg"></i></a></li>
             <li><a href="https://www.instagram.com/projectmomonga"><i class="fab fa-instagram fa-lg"></i></a></li>
             <li><a href="https://line.me/ti/p/8QPlYUjFk-"><i class="fab fa-line fa-lg"></i></a></li>
         </ul>
       </div>
-
-
-
-    <div class="kotei-gazou"><!--pc用-->
+    <div class="kotei-gazou"><!--pc-->
       <div class="top-gazou-wrapper">
-        <img src="img/hai-kei-1920.jpg" class="top-gazou" alt="top画像">
+        <img src="img/hai-kei-480.png"width="30%"height="auto">
       </div>
-
-
-
-
-
-
 <div class="wrapper">
   <h2 class="hajimeni"><span>はじめに</span></h2>
   <div class="koncept">
@@ -113,14 +79,12 @@
      </h2>
       <div class="oheya">
         <h4><i class="fas fa-paw"></i>お部屋について</h4>
-        <p>
-        ブリードルームとは、お部屋をペットホテル専用にしたものです。<br>
+        <p>フクロモモンガのブリードルームとは別のお部屋をペットホテル専用に使用しております。<br>
         エアコンで、春夏秋冬24時間、温度管理を徹底し、エキゾチックアニマル達の過ごしやすい温度と環境を一定に整えています。<br>
         また、加湿器や空気清浄機などを導入し、大切な御家族の一員であるアニマルちゃんが快適に過ごせるよう、環境作りに励んでいます。
         耐震設備にも力を入れ、各ケージには震度7対応の耐震設備を、ラックには転倒防止設備を設置しております。</p>
-        <img src="img/tai-shin.jpg" width="300px" height="300px">
+        <img src="img/tai-shin.png" width="50%" height="auto">
       </div>
-
       <div class="goyoyaku">
         <h4><i class="fas fa-paw"></i>ご予約について</h4>
         <p>
@@ -133,8 +97,12 @@
           24時間体制でお世話致します。<br>
           また、初回カルテ登録代金として別途￥1000頂きます。
           2回目以降はかかりませんのでご了承ください。</p>
-          <img src="img/hukuro-momonga1.jpeg" width="300px" height="300px">
-            <img src="img/hukuro-momonga3.jpeg" width="300px" height="300px">
+
+<ul class="momolist">
+        <li><div class="momo1">  <img src="img/hukuro-momonga1.png" width="100%" height="auto" ></div></li>
+          <li><div class="momo3">
+            <img src="img/hukuro-momonga3.png" width="125%" height="auto"class="momog"></div></li>
+    </ul>
       </div>
 
 
@@ -144,8 +112,9 @@
             お預かりは極力ストレスにならないよう、普段アニマルちゃんが
             使われているケージのままお預かりさせていただきます。<br>
             多頭飼いの場合は1ケージでも頭数分×ホテル利用代でございます。</p>
-            <img src="img/hukuro-momonga4.jpeg" width="300px" height="300px">
-              <img src="img/momonga.jpeg" width="300px" height="300px">
+            <ul class="momolist">
+            <li><img src="img/hukuro-momonga4.png" width="110%" height="auto"  class="momo4-2"></li>
+            <li><div class="momo4"><img src="img/hukuro-momonga2.png" width="120%" height="auto"  class="momo4-1"></div></li></ul>
         </div>
         <div class="sonota">
           <h4><i class="fas fa-paw"></i>その他注意事項</h4>
@@ -159,12 +128,12 @@
 
           <p class="pc">
             ・怪我や感染症の病気の子はお預かりできません。お薬を投薬中の<br>
-            アニマルちゃんやシニアの子は<担当獣医師と相談してください。<br>
+            アニマルちゃんやシニアの子は担当獣医師と相談してください。<br>
             当方でお預かり可能か要相談となります。
           </p>
           <p class="sp">
            ・怪我や感染症の病気の子はお預かりできません。お薬を投薬中の
-           アニマルちゃんやシニアの子は<担当獣医師と相談してください。
+           アニマルちゃんやシニアの子は担当獣医師と相談してください。
            当方でお預かり可能か要相談となります。
          </p>
 
@@ -209,6 +178,8 @@
           <p class="sp">
           ・フェレットのプレイルームを完備しております。ぜひご利用ください。
           </p>
+          <img src="img/felet-playroom1.png" width="40%" height="auto">
+          <img src="img/felet-playroom2.png" width="40%" height="auto">
 
             <p class="pc">
             ・普段お使いのケージが大きすぎてお運び持参できない場合は<br>
@@ -223,12 +194,11 @@
            こちらのタイプ以外にも様々なサイズのケージをご用意しております。
            お気軽にお申し付けください。
          </p>
-          <img src="img/felet-playroom1.jpeg" width="300px" height="300px">
-          <img src="img/felet-playroom2.jpeg" width="300px" height="300px">
-          <img src="img/keeji.jpeg" width="300px" height="300px">
-          <img src="img/keeji2.jpeg" width="300px" height="300px">
-          <img src="img/keeji3.jpeg" width="300px" height="300px">
-          <img src="img/keeji4.jpeg" width="300px" height="300px">
+
+          <img src="img/keeji.png" width="40%" height="auto">
+          <img src="img/keeji2.png" width="40%" height="auto">
+          <img src="img/keeji3.png" width="40%" height="auto">
+          <img src="img/keeji4.png" width="40%" height="auto">
         </div>
   </div>
 
@@ -280,8 +250,10 @@
             <p>※その他げっ歯類お問い合わせください。</p>
             </div>
           </table>
-          <img src="img/komon-maamo-set.jpeg" width="300px" height="300px">
-          <img src="img/komon-maamo-set2.jpg" width="300px" height="300px">
+          <ul class="momolist">
+          <li><div class="momo5">
+          <img src="img/komon-maamo-set.png" width="110%" height="auto" class="komo"></div></li>
+          <li><img src="img/komon-maamo-set2.png" width="100%" height="auto" class="komo4"></li></ul>
         </div>
 
         <div class="stay-2">
@@ -322,8 +294,8 @@
         <p>※その他げっ歯類	お問い合わせください。</p>
           </div>
         </table>
-        <img src="img/ham1.jpg" width="300px" height="300px">
-        <img src="img/ham2.jpg" width="300px" height="300px">
+        <ul class="momolist"><li><img src="img/ham1.png" width="100%" height="auto" class="ham1"></li>
+          <li><div class="momo6"><img src="img/ham2.png" width="180%" height="auto" class="hamuuu"></div></li></ul>
         </div>
 
         <div class="stay-3">
@@ -363,8 +335,9 @@
                 <p>※その他げっ歯類	お問い合わせください。</p>
             </div>
           </table>
-        <img src="img/usagi.png" width="300px" height="300px" alt="うさぎ">
-        <img src="img/usagi2.jpeg" width="300px" height="300px" alt="うさぎ2">
+          <ul class="momolist">
+        <li><div class="momo7"><img src="img/usagi1.png" width="110%" height="auto" class="usa4563"></div></li>
+        <li><div class="momo456"><img src="img/usagi2.png" width="100%" height="auto" class="usa2"></div></li></ul>
         </div>
 
         <div class="stay-4">
@@ -394,8 +367,8 @@
             <p>フェレットちゃんをプレイルームで遊ばせる時にもご利用できます。※8時間までは種類問わず、このお値段です。</p>
             </div>
         </table>
-        <img src="img/molmot1.jpg" width="300px" height="300px" alt="モルモット">
-        <img src="img/molmot2.jpg" width="300px" height="300px" alt="モルモット2">
+      <div class="momo8"><img src="img/molmot1.png" width="100%" height="auto" class="ya"></div>
+        <div class="momo9"><img src="img/molmot2.png" width="100%" height="auto"class="ya"></div>
         </div>
 
         <div class="option">
@@ -403,8 +376,8 @@
           <p>・爪切り	￥500<br>
           ・耳掃除	￥500</p>
         <div class="felet1">
-          <img src="img/felet1.png" alt="フェレット１" width="300px" height="300px">
-          <img src="img/felet2.png" alt="フェレット１" width="300px" height="300px">
+          <div class="momo10">  <img src="img/felet1.png"width="100%" height="auto"></div>
+          <div class="momo11">  <img src="img/felet2.png"width="120%" height="auto"></div>
         </div>
       </div>
 
@@ -415,17 +388,9 @@
         ・楽天ペイ加盟店クレジットカード(手数料5%)<br>
           ・paypay(2万円まで)</p>
         </div>
-      <div class="siharai">
-        <img src="img/shiharai-houhou.jpeg" alt="支払方法">
-      </div>
+      <div class="siharai"><img src="img/shiharai-houhou.png"width="80%" height="auto"></div>
     </div>
   </div>
-
-
-
-
-
-
 
   <h2 class="hitu-you-na-mono-txt" id="jump4">
    <span class="pc">利用の際に必要なもの</span>
@@ -512,7 +477,7 @@
     <tr>
       <th>事業内容<br>
       </th>
-      <td>フクロモモンガ、コモンマーモセットの繁殖および販売<br>並びにエキゾチックアニマルのペットホテル,ペットシッター</td>
+      <td>フクロモモンガ、コモンマーモセットの繁殖および販売<br>並びにエキゾチックアニマルのペットホテル、ペットシッター</td>
     </tr>
     <tr>
       <th>種別</th>
@@ -520,7 +485,7 @@
     </tr>
     <tr>
       <th>登録番号</th>
-      <td>19東京都販第006310</td>
+      <td>19東京都販第006310 / 19東京都保第006310</td>
     </tr>
     <tr>
       <th>登録年月日.登録更新の年月日</th>
@@ -551,14 +516,10 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.2587260843634!2d139.67125301474735!3d35.
       71985503546106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f2a100324699%3A0xdbfa6a50cdac3c2b!2z44CSM
       TYxLTAwMzEg5p2x5Lqs6YO95paw5a6_5Yy66KW_6JC95ZCI77yS5LiB55uu77yS77yR4oiS77yY!5e0!3m2!1sja!2sjp!4v1559995293500!5m2!1sja!2sjp"
-      width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen>
-      </iframe>
-      <img src="img/gaikan1.jpg" width="300px" height="300px">
-      <video width="100%" height="300" controls>
-      　　<source src="img/miti-annai-douga.mp4"/>
-      </video>
-
-
+      width="90%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <img src="img/gaikan1.png" width="40%" height="auto">
+      <video width="40%" height="auto" controls>
+      　　<source src="img/miti-annai-douga.mp4"></video>
     </div>
 
 
@@ -576,24 +537,17 @@
 
 
 
+  <h2 id="jump9"class="link-link"><span>link</span></h2>
+  <div class="link-wrapper">
+    <h3><i class="fas fa-paw"></i>おすすめサイト</h3>
+    <p>フクロモモンガブリーダーのサイトです。<br>宜しければこちらもご閲覧ください。</p>
+      <a href="http://putite-animo.crayonsite.info/" class=""><span>こちらをクリック→</span>Putite_Animo</a>
+      <img src="img/momonga.png"width="40%" height="auto" class="momon">
+  </div>
 </div><!--wrapper終了-->
 </div><!--固定画像　終了-->
 </div><!--固定メニュー終了-->
-
-
-
-<!--<div class="contact-form">
-  <iframe src="http://tayori.com/form/01a1174e78369130612dc87b2e1a5c43ef06b45f"></iframe>
-</div>-->
-
-
-
-
-
 <footer>
-<!--  <div class="footer-gazou-wrapper">
-    <img src="img/hai-kei-1920.jpg" class="footer-gazou" alt="ふったー画像">
-  </div>-->
     <div class="footer-menu-wrapper">
     <ul>
       <li><a href="">home</a></li>
@@ -604,8 +558,8 @@
       <li><a href="#jump6">会社概要</a></li>
       <li><a href="#jump7">access</a></li>
       <li><a href="#jump8">contact</a></li>
+      <li><a href="#jump9">link</a></li>
       <li><a href="https://ameblo.jp/putite-animo/">blog</a></li>
-        <li><a href="http://putite-animo.crayonsite.info/">link</a></li>
         <li><a href="https://mobile.twitter.com/Projectmomonga"><i class="fab fa-twitter-square fa-lg"></i></a></li>
         <li><a href="https://www.instagram.com/projectmomonga"><i class="fab fa-instagram fa-lg"></i></a></li>
         <li><a href="https://line.me/ti/p/8QPlYUjFk-"><i class="fab fa-line fa-lg"></i></a></li>
