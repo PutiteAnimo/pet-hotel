@@ -5,6 +5,11 @@
      padding:0;
    }
 
+    .usa4563{
+       margin-top:0px;
+       margin-left: 0px;}
+
+
    body{
      max-width: 480px;
      width: 100%;
@@ -707,11 +712,6 @@ img{
 
 @media screen and (max-width: 1599px) {
 
-  .felet1{
-    display: flex;
-    margin-left: 100px;
-    margin-bottom: -200px;
-  }
 
 }
 
@@ -721,11 +721,6 @@ img{
 
 @media screen and (max-width: 1349px) {
 
-  .felet1{
-    display: flex;
-    margin-left: 100px;
-    margin-bottom: -170px;
-  }
 
 }
 
@@ -734,10 +729,5 @@ img{
 
 @media screen and (max-width: 1179px) {
 
-  .felet1{
-    display: flex;
-    margin-left: 100px;
-    margin-bottom: -120px;
-  }
 
 }
